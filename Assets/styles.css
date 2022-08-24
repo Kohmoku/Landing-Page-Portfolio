@@ -1,7 +1,23 @@
 :root {
 
     --background: #adb9c7;
-  }
+    
+      
+      --primary: #1e50ff;
+      --secondary: #272d37;
+      --btn-bg: #050d26;
+      --bg-azul-10: #e9eeff;
+      --bg-white: #fff;
+      --bg-electric: #f0fbff;
+      --nav-bg: #0f1525;
+    
+      --text-gray: #adb9c7;
+      --text-white: #f3f4f6;
+    
+      --fire: #ff6d00;
+      --electric: #64d3ff;
+    }
+  
   
   * {
     margin: 0;
@@ -48,4 +64,75 @@
     gap: 50px;
   }
   
+  #hero {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+  }
+  
+  .hero-info h1 {
+    padding: 20px;
+    font-size: 35px;
+    width: 100%;
+    min-width: 500px;
+    font-weight: 800;
+    color: var(--text-gray);
+  }
+  
+  .hero-info p  {
+    padding: 20px;
+    font-weight: 500;
+  }
+  
+  .hero-info a {
+    color: var(--text-white);
+    background-color: var(--primary);
+    width: 120px;
+    padding: 8px ;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .portada {
+    width: 300px;
+    background: var(--secondary);
+    padding: 70px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #info {
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .info-text {
+    font-size: 20px;
+    width: 800px;
+    height: 500px;
+    padding:20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+   
+    
+  }
   
