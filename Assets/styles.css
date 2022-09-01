@@ -113,14 +113,16 @@
     gap: 20px;
   }
 
-  #info {
-    padding: 70px 0;
+  #info2 {
+    padding: 10px;
     max-width: 1200px;
     display: flex;
     justify-content: left;
     align-items: left;
     flex-direction: column;
     gap: 80px;
+    height: 150px;
+    width: 1200px;
   }
 
   .info-text {
@@ -135,4 +137,120 @@
    
     
   }
+  #info {
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+  }
   
+  #info h2 {
+    font-size: 32px;
+    font-weight: 800;
+  }
+  
+  .info-cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .info-card {
+    width: 300px;
+    height: 300px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--text-white);
+    border-radius: 10px;
+    gap: 20px;
+  }
+  
+  .info-card img {
+    width: 50px;
+  }
+  
+  .info-card h3 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .info-card p {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--text-gray);
+  }
+  
+
+  #contacto {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+  }
+  
+  .contact-info h1 {
+    padding: 20px;
+    font-size: 35px;
+    width: 100%;
+    min-width: 500px;
+    font-weight: 800;
+    color: var(--text-gray);
+  }
+  
+  .contact-info img  {
+    width: 50px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    float:left;
+  }
+
+  
+  
+  
+  .img_contacto {
+    width: 500px;
+    background: var(--secondary);
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #foot {
+    margin-top: 10px;
+    padding: 10px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footerimg img { 
+  width: 50px;
+  padding: 5px;
+
+  
+}
